@@ -1,0 +1,233 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.nav-btns {
+  width: max-content;
+  border: 1px solid #555;
+  border-radius: 15px;
+  margin: 1.5rem auto;
+}
+
+.nav-btn-1 {
+  border-right: 1px solid #555;
+}
+
+.nav-btn {
+  text-decoration: none;
+  padding: 0.5rem 0.7rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.nav-btn:hover {
+  background: #444;
+  color: #fff;
+}
+
+.nav-btn-active {
+  background: #333;
+  color: #fff;
+}
+
+.nav-btn-1:hover,
+.nav-btn-1-active {
+  border-radius: 14px 0 0 14px;
+}
+
+.nav-btn-2:hover,
+.nav-btn-2-active {
+  border-radius: 0 14px 14px 0;
+}
+
+.nav-container h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.heading {
+  margin: 2.5rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.btn {
+  padding: 0.5rem 0.7rem;
+  border: none;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+.btn-big {
+  padding: 0.7rem 0.9rem;
+  font-size: 1.3rem;
+  border-radius: 8px;
+}
+
+.forms {
+  width: 35rem;
+  margin: 0 auto 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+form input {
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+  width: 11rem;
+}
+
+.instructions {
+  font-size: 1.5rem;
+  text-align: left;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.instructions li {
+  margin: 0.7rem 0;
+  font-weight: 700;
+}
+
+.small-avatar {
+  width: 2.5rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #666;
+}
+
+.small-card {
+  width: 10rem;
+  box-shadow: 0 0 3px #555;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.error-input {
+  border-color: #f00;
+}
+
+.disable-button {
+  background: #999;
+  pointer-events: none;
+}
+
+.profile-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #444;
+  margin-top: 1rem;
+}
+
+.profile-card-container {
+  width: 40%;
+}
+
+.profile-info {
+  font-size: 1.3rem;
+  margin-top: 0.7rem;
+}
+
+.username {
+  font-size: 1.6rem;
+  margin-top: 0.7rem;
+}
+
+.result {
+  font-size: 2rem;
+}
+
+.reset-btn {
+  margin: 4rem 0;
+}
+
+.tags {
+  margin: 2rem auto;
+  width: 25rem;
+  color: chocolate;
+  font-weight: 700;
+}
+
+.tags li {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
+}
+
+.active {
+  border-bottom: 2px solid chocolate;
+}
+
+.repo-card {
+  width: 15rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow:  0 0 5px #444;
+}
+
+.repo-card h3 {
+  color: chocolate;
+  font-weight: 700;
+}
+
+.repo-card img {
+  color: chocolate;
+  margin: 0.7rem 0;
+}
+
+.repo-extra-info {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
